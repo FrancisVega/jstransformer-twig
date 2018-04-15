@@ -2,6 +2,8 @@
 
 const path = require('path')
 const Twig = require('twig')
+const TwigMarkdown = require('twig-markdown')
+Twig.extend(TwigMarkdown)
 
 const twigRender = Twig.twig
 
